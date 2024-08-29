@@ -3,8 +3,10 @@ package com.operation.calculator.operation;
 import com.operation.calculator.Calculator.Calculator;
 
 public class ExecuteOperation {
+	
 
 	 public static void main(String[] args) {
+		 //This is setup as a service but this has been setup in the main function just as a demonstration
 	        Calculator calculator = new Calculator(10);
 
 	        double result = calculator

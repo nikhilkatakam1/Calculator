@@ -1,8 +1,11 @@
 package com.operation.calculator.Calculator;
 
+import org.springframework.stereotype.Service;
+
 import com.operation.calculator.operation.MathOperator;
 import com.operation.calculator.operation.Operation;
 
+@Service
 public class Calculator {
     private double value;
 
