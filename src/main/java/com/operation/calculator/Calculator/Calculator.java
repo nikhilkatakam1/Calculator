@@ -9,9 +9,7 @@ import com.operation.calculator.operation.Operation;
 public class Calculator {
     private double value;
 
-    public Calculator(double initialValue) {
-        this.value = initialValue;
-    }
+    
 
     public Calculator performOperation(MathOperator operation, double operand, double operand2) {
         this.value = operation.apply(operand, operand2);

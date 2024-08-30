@@ -7,7 +7,7 @@ public class ExecuteOperation {
 
 	 public static void main(String[] args) {
 		 //This is setup as a service but this has been setup in the main function just as a demonstration
-	        Calculator calculator = new Calculator(10);
+	        Calculator calculator = new Calculator();
 
 	        double result = calculator
 	                            .performOperation(MathOperator.ADDITION, 5,7)
